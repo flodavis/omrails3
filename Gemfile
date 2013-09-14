@@ -7,7 +7,6 @@ gem 'rails_12factor'
 # Use sqlite3 as the database for Active Record
 group :production do
 	gem 'pg'
-    gem 'aws-sdk'
 end
 group :development do 
 	gem 'sqlite3'
@@ -31,6 +30,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'aws-sdk'
 
 #added protected attribute back to work with Rails 4
 gem 'protected_attributes'
