@@ -31,6 +31,7 @@ gem 'devise'
 gem 'simple_form'
 gem 'paperclip', "~> 3.4.2"
 gem 'aws-sdk', :require => "aws/s3"
+gem "faker", "~> 1.2.0"
 
 #added protected attribute back to work with Rails 4
 gem 'protected_attributes'
