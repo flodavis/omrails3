@@ -29,7 +29,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
-gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'paperclip', "~> 3.4.2"
 gem 'aws-sdk', :require => "aws/s3"
 
 #added protected attribute back to work with Rails 4
