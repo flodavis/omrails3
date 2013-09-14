@@ -7,7 +7,7 @@ gem 'rails_12factor'
 # Use sqlite3 as the database for Active Record
 group :production do
 	gem 'pg'
-
+    gem 'aws-sdk'
 end
 group :development do 
 	gem 'sqlite3'
