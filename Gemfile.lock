@@ -3,7 +3,7 @@ GIT
   revision: 455b87e0df49e4ed81deedd9d6e0c7aeb8cee5c5
   branch: rails-4
   specs:
-    paperclip (3.4.1)
+    paperclip (3.4.2)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
       activesupport (>= 3.0.0)
