@@ -30,7 +30,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
-gem 'aws-sdk'
+gem 'aws-sdk', :require => "aws/s3"
 
 #added protected attribute back to work with Rails 4
 gem 'protected_attributes'
